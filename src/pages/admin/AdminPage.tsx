@@ -13,7 +13,8 @@ export function AdminPage() {
       <ThinContainer>
         <Heading1>Admin tools</Heading1>
         <Paragraph>
-          Silly tools used test StreamerFlix! ૮₍´˶• . • ⑅ ₎ა
+          Silly tools used test
+          StreamerFlix! ૮₍´˶• . • ⑅ ₎ა
         </Paragraph>
 
         <ConfigValuesPart />
