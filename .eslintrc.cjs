@@ -25,7 +25,6 @@ module.exports = {
     "/plugins/*.ts",
     "/plugins/*.mjs",
     "/themes/**/*.ts",
-    "/src/*"
   ],
   parser: "@typescript-eslint/parser",
   parserOptions: {
