@@ -9,6 +9,9 @@
     "build:pwa": "cross-env VITE_PWA_ENABLED=true vite build",
     "test": "vitest run",
     "preview": "vite preview",
+    "lint": "eslint --ext .tsx,.ts src",
+    "lint:fix": "eslint --fix --ext .tsx,.ts src",
+    "lint:report": "eslint --ext .tsx,.ts --output-file eslint_report.json --format json src",
     "preinstall": "npx -y only-allow pnpm"
   },
   "browserslist": {
@@ -98,7 +101,6 @@
     "@vitejs/plugin-react": "^4.2.1",
     "autoprefixer": "^10.4.19",
     "cross-env": "^7.0.3",
-    "eslint": "^8.57.0",
     "eslint-config-airbnb": "19.0.4",
     "eslint-config-prettier": "^9.1.0",
     "eslint-import-resolver-typescript": "^3.6.1",
