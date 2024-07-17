@@ -1,6 +1,6 @@
 {
-  "name": "StreamWatch",
-  "short_name": "StreamWatch",
+  "name": "StreamerFlix",
+  "short_name": "StreamerFlix",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#120f1d",
